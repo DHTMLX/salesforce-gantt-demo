@@ -1,10 +1,15 @@
 # Gantt demo for SalesForce
 
+## Prerequisites
+
+- Enable the [Developer Hub](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_enable_devhub.htm) in your organization
+- Install the [Salesforce CLI](https://developer.salesforce.com/tools/sfdxcli)
+
 ## How to start
 
-- Change login url (sfdcLoginUrl) in sfdx-project.json to url of your SalesForce organization
+- [Change login url](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_web_flow.htm) (sfdcLoginUrl) in sfdx-project.json to url of your SalesForce organization
 
-- Create scratch org
+- Create [scratch org](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_scratch_orgs.htm#!)
 
 ```sh
 sfdx force:auth:web:login -d
