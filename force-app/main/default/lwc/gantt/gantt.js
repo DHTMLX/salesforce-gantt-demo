@@ -47,7 +47,7 @@ export default class GanttView extends LightningElement {
         }).catch(error => {
             this.dispatchEvent(
                 new ShowToastEvent({
-                    title: 'Error loading Webix',
+                    title: 'Error loading Gantt',
                     message: error.message,
                     variant: 'error',
                 }),
@@ -74,7 +74,7 @@ export default class GanttView extends LightningElement {
                         Name : data.text,
                         Start_Date__c : data.start_date,
                         Duration__c : data.duration,
-                        Parent__c : data.parent.toString(),
+                        Parent__c : String(data.parent),
                         Progress__c : data.progress
                     }};
                     return createRecord(insert).then(res => {
@@ -87,7 +87,7 @@ export default class GanttView extends LightningElement {
                         Name : data.text,
                         Start_Date__c : data.start_date,
                         Duration__c : data.duration,
-                        Parent__c : data.parent,
+                        Parent__c : String(data.parent),
                         Progress__c : data.progress
                     }};
                     return updateRecord(update).then(() => ({}));
