@@ -1,5 +1,9 @@
 # Gantt demo for SalesForce
 
+Here you can find a code example of the Gantt chart for Lightning Web Components on Salesforce Platform.
+
+The sample is implemented with the help of JavaScript Gantt chart library - [dhtmlxGantt](https://dhtmlx.com/docs/products/dhtmlxGantt/).
+
 ## Prerequisites
 
 - Enable the [Developer Hub](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_enable_devhub.htm) in your organization
@@ -70,3 +74,8 @@ gantt.createDataProcessor({
 
 
 force-app/main/default/staticresources/dhtmlxgantt635.zip contains a trial version of the Gantt ( it will show a warning message time to time ). For production usage you will need to replace js and css files in this archive with ones from enterprise/ultimate Gantt package. 
+
+## Related resources
+
+- dhtmlxGantt product page: [https://dhtmlx.com/docs/products/dhtmlxGantt/](https://dhtmlx.com/docs/products/dhtmlxGantt/)
+- Documentation: [https://docs.dhtmlx.com/gantt/](https://docs.dhtmlx.com/gantt/)
