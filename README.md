@@ -82,10 +82,11 @@ force-app/main/default/staticresources/dhtmlxgantt635.zip contains a trial versi
 
 ## Related resources
 
-- dhtmlxGantt product page: [https://dhtmlx.com/docs/products/dhtmlxGantt/](https://dhtmlx.com/docs/products/dhtmlxGantt/)
 - Documentation: [https://docs.dhtmlx.com/gantt/](https://docs.dhtmlx.com/gantt/)
+- dhtmlxGantt product page: [https://dhtmlx.com/docs/products/dhtmlxGantt/](https://dhtmlx.com/docs/products/dhtmlxGantt/)
+- DHTMLX Gantt in Salesforce page: [https://dhtmlx.com/docs/products/demoApps/salesforce-gantt-chart/](https://dhtmlx.com/docs/products/demoApps/salesforce-gantt-chart/)
 
-## Support
+## Support Us
 
 Star our GitHub repo :star:
 
