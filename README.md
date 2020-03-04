@@ -7,7 +7,7 @@ Here you can find a code example of the Gantt chart for Lightning Web Components
 
 The sample is implemented with the help of JavaScript Gantt chart library - [dhtmlxGantt](https://dhtmlx.com/docs/products/dhtmlxGantt/).
 
-[![suite-demo](https://dhtmlx.com/docs/products/demoApps/salesforce-gantt-chart/imgs/salesforce-gantt-chart.png)](https://dhtmlx.com/docs/products/demoApps/salesforce-gantt-chart/)
+[![salesforce-demo](https://dhtmlx.com/docs/products/demoApps/salesforce-gantt-chart/imgs/salesforce-gantt-chart.png)](https://dhtmlx.com/docs/products/demoApps/salesforce-gantt-chart/)
 
 ## Prerequisites
 
