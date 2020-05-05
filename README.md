@@ -1,8 +1,13 @@
 # Gantt demo for SalesForce
 
+[![dhtmlx.com](https://img.shields.io/badge/made%20by-DHTMLX-blue)](https://dhtmlx.com/)
+[![License: GPL v2](https://img.shields.io/badge/license-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+
 Here you can find a code example of the Gantt chart for Lightning Web Components on Salesforce Platform.
 
 The sample is implemented with the help of JavaScript Gantt chart library - [dhtmlxGantt](https://dhtmlx.com/docs/products/dhtmlxGantt/).
+
+[![salesforce-demo](https://dhtmlx.com/docs/products/demoApps/salesforce-gantt-chart/imgs/salesforce-gantt-chart.png)](https://dhtmlx.com/docs/products/demoApps/salesforce-gantt-chart/)
 
 ## Prerequisites
 
@@ -77,5 +82,18 @@ force-app/main/default/staticresources/dhtmlxgantt635.zip contains a trial versi
 
 ## Related resources
 
-- dhtmlxGantt product page: [https://dhtmlx.com/docs/products/dhtmlxGantt/](https://dhtmlx.com/docs/products/dhtmlxGantt/)
 - Documentation: [https://docs.dhtmlx.com/gantt/](https://docs.dhtmlx.com/gantt/)
+- dhtmlxGantt product page: [https://dhtmlx.com/docs/products/dhtmlxGantt/](https://dhtmlx.com/docs/products/dhtmlxGantt/)
+- About DHTMLX Gantt in Salesforce: [https://dhtmlx.com/docs/products/demoApps/salesforce-gantt-chart/](https://dhtmlx.com/docs/products/demoApps/salesforce-gantt-chart/)
+
+## Support Us
+
+Star our GitHub repo :star:
+
+Check our [roadmap](https://trello.com/b/fhOySHPj/gantt-roadmap) for future updates :wrench:
+
+Read us on [Medium](https://medium.com/@dhtmlx) :newspaper:
+
+Follow us on [Twitter](https://twitter.com/dhtmlx) :bird:
+
+Like our page on [Facebook](https://www.facebook.com/dhtmlx/) :thumbsup:
