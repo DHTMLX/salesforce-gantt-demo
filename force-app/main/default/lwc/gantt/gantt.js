@@ -30,6 +30,8 @@ function unwrap(fromSF){
 }
 
 export default class GanttView extends LightningElement {
+    static delegatesFocus = true;
+ 
     @api height;
     ganttInitialized = false;
 
