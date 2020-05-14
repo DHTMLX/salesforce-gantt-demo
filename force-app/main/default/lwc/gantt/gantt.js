@@ -6,7 +6,7 @@ import { loadStyle, loadScript } from 'lightning/platformResourceLoader';
 import { createRecord, updateRecord, deleteRecord } from 'lightning/uiRecordApi';
 
 // Static resources
-import GanttFiles from '@salesforce/resourceUrl/dhtmlxgantt635';
+import GanttFiles from '@salesforce/resourceUrl/dhtmlxgantt703';
 
 // Controllers
 import getTasks from '@salesforce/apex/GanttData.getTasks';
@@ -31,7 +31,7 @@ function unwrap(fromSF){
 
 export default class GanttView extends LightningElement {
     static delegatesFocus = true;
- 
+
     @api height;
     ganttInitialized = false;
 
@@ -69,7 +69,7 @@ export default class GanttView extends LightningElement {
             gantt.parse(unwrap(d));
         })
 
-        gantt.createDataProcessor({ 
+        gantt.createDataProcessor({
             task: {
                 create: function(data) {
                     const insert = { apiName: "GanttTask__c", fields:{

@@ -44,7 +44,7 @@ The scratch org already has Gantt app which you can check, or go to "Setup : Lig
 
 ### Backend
 
-getTasks in force-app/main/default/classes/GanttData.cls returns list of tasks and links, adjust this query as necessary. 
+getTasks in force-app/main/default/classes/GanttData.cls returns list of tasks and links, adjust this query as necessary.
 
 ### Frontend
 
@@ -69,16 +69,16 @@ initializeUI(){
 
 
 ```js
-gantt.createDataProcessor({ 
+gantt.createDataProcessor({
             task: {
 ```
 
-**createDataProcessor** defines data saving rules, they need to be adjusted if you will want to save some extra fields along with the default Task's data. 
+**createDataProcessor** defines data saving rules, they need to be adjusted if you will want to save some extra fields along with the default Task's data.
 
 ### Version of the Gantt
 
 
-force-app/main/default/staticresources/dhtmlxgantt635.zip contains a trial version of the Gantt ( it will show a warning message time to time ). For production usage you will need to replace js and css files in this archive with ones from enterprise/ultimate Gantt package. 
+force-app/main/default/staticresources/dhtmlxgantt703.zip contains a trial version of the Gantt ( it will show a warning message time to time ). For production usage you will need to replace js and css files in this archive with ones from enterprise/ultimate Gantt package.
 
 ## Related resources
 
