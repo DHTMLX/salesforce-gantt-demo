@@ -5,7 +5,7 @@
 
 Here you can find a code example of the Gantt chart for Lightning Web Components on Salesforce Platform.
 
-The sample is implemented with the help of JavaScript Gantt chart library - [dhtmlxGantt](https://dhtmlx.com/docs/products/dhtmlxGantt/).
+The sample is implemented with the help of JavaScript Gantt chart library - [DHTMLX Gantt](https://dhtmlx.com/docs/products/dhtmlxGantt/).
 
 [![salesforce-demo](https://dhtmlx.com/docs/products/demoApps/salesforce-gantt-chart/imgs/salesforce-gantt-chart.png)](https://dhtmlx.com/docs/products/demoApps/salesforce-gantt-chart/)
 
@@ -84,6 +84,7 @@ force-app/main/default/staticresources/dhtmlxgantt635.zip contains a trial versi
 
 - Documentation: [https://docs.dhtmlx.com/gantt/](https://docs.dhtmlx.com/gantt/)
 - dhtmlxGantt product page: [https://dhtmlx.com/docs/products/dhtmlxGantt/](https://dhtmlx.com/docs/products/dhtmlxGantt/)
+- Video tutorial: [https://www.youtube.com/watch?v=cCvULTQxPfg&ab_channel=dhtmlx](https://www.youtube.com/watch?v=cCvULTQxPfg&ab_channel=dhtmlx)
 - About DHTMLX Gantt in Salesforce: [https://dhtmlx.com/docs/products/demoApps/salesforce-gantt-chart/](https://dhtmlx.com/docs/products/demoApps/salesforce-gantt-chart/)
 
 ## Support Us
