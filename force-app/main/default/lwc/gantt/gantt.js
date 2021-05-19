@@ -6,7 +6,7 @@ import { loadStyle, loadScript } from 'lightning/platformResourceLoader';
 import { createRecord, updateRecord, deleteRecord } from 'lightning/uiRecordApi';
 
 // Static resources
-import GanttFiles from '@salesforce/resourceUrl/dhtmlxgantt703';
+import GanttFiles from '@salesforce/resourceUrl/dhtmlxgantt713';
 
 // Controllers
 import getTasks from '@salesforce/apex/GanttData.getTasks';
@@ -61,7 +61,8 @@ export default class GanttView extends LightningElement {
         const root = this.template.querySelector('.thegantt');
         root.style.height = this.height + "px";
 
-        const gantt = window.Gantt.getGanttInstance();
+        //uncomment the following line if you use the Enterprise or Ultimate version
+        //const gantt = window.Gantt.getGanttInstance();
         gantt.templates.parse_date = date => new Date(date);
         gantt.templates.format_date = date => date.toISOString();
         gantt.init(root);
