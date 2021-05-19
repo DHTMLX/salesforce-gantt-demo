@@ -61,7 +61,8 @@ export default class GanttView extends LightningElement {
         const root = this.template.querySelector('.thegantt');
         root.style.height = this.height + "px";
 
-        const gantt = window.Gantt.getGanttInstance();
+        //uncomment the following line if you use the Enterprise or Ultimate version
+        //const gantt = window.Gantt.getGanttInstance();
         gantt.templates.parse_date = date => new Date(date);
         gantt.templates.format_date = date => date.toISOString();
         gantt.init(root);
