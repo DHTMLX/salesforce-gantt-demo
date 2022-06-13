@@ -1,11 +1,12 @@
 {
-    "packageDirectories": [
-      {
-        "path": "force-app",
-        "default": true
-      }
-    ],
-    "namespace": "",
-    "sfdcLoginUrl": "",
-    "sourceApiVersion": "47.0"
-  }
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "name": "gantt-salesforce-app",
+  "namespace": "",
+  "sfdcLoginUrl": "https://xbs2-dev-ed.my.salesforce.com",
+  "sourceApiVersion": "54.0"
+}

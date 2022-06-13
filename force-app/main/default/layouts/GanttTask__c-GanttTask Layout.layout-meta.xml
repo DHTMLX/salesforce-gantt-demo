@@ -12,10 +12,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Start_Date__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Duration__c</field>
             </layoutItems>
             <layoutItems>
@@ -25,6 +21,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Progress__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Start_Date__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
