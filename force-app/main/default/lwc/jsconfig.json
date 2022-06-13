@@ -1,20 +1,16 @@
 {
     "compilerOptions": {
-        "experimentalDecorators": true,
-        "baseUrl": ".",
-        "paths": {
-            "c/apiViewer": [
-                "apiViewer/apiViewer.js"
-            ],
-            "c/gantt": [
-                "gantt/gantt.js"
-            ]
-        }
+        "experimentalDecorators": true
     },
     "include": [
         "**/*",
         "../../../../.sfdx/typings/lwc/**/*.d.ts"
     ],
+    "paths": {
+        "c/*": [
+            "*"
+        ]
+    },
     "typeAcquisition": {
         "include": [
             "jest"

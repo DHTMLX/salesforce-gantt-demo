@@ -152,14 +152,15 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
     <label>GanttLink</label>
     <nameField>
         <displayFormat>{0000}</displayFormat>
-        <label>GanttLink ID</label>
+        <label>GanttLink Name</label>
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>GanttLinks</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts></searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

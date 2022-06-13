@@ -22,7 +22,7 @@ The sample is implemented with the help of JavaScript Gantt chart library - [DHT
 
 ```sh
 sfdx force:auth:web:login -d
-sfdx force:org:create -f project-scratch-def.json -s
+sfdx force:org:create -f config/project-scratch-def.json -s
 ```
 
 - Publish code
@@ -78,7 +78,7 @@ gantt.createDataProcessor({
 ### Version of the Gantt
 
 
-force-app/main/default/staticresources/dhtmlxgantt703.zip contains a trial version of the Gantt ( it will show a warning message time to time ). For production usage you will need to replace js and css files in this archive with ones from enterprise/ultimate Gantt package.
+force-app/main/default/staticresources/dhtmlxgantt7111.zip contains a trial version of the Gantt ( it will show a warning message time to time ). For production usage you will need to replace js and css files in this archive with ones from enterprise/ultimate Gantt package.
 
 ## Related resources
 
