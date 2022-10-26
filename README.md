@@ -84,7 +84,7 @@ force-app/main/default/staticresources/dhtmlxgantt7111.zip contains a trial vers
 
 - Documentation: [https://docs.dhtmlx.com/gantt/](https://docs.dhtmlx.com/gantt/)
 - dhtmlxGantt product page: [https://dhtmlx.com/docs/products/dhtmlxGantt/](https://dhtmlx.com/docs/products/dhtmlxGantt/)
-- Video tutorial: [https://www.youtube.com/watch?v=cCvULTQxPfg&ab_channel=dhtmlx](https://www.youtube.com/watch?v=cCvULTQxPfg&ab_channel=dhtmlx)
+- Video tutorial: [https://youtu.be/1nXl9jfMdto](https://youtu.be/1nXl9jfMdto?list=PLKS_XdyIGP4MEW6yvvQUZT8vJKHVOq2S0)
 - About DHTMLX Gantt in Salesforce: [https://dhtmlx.com/docs/products/demoApps/salesforce-gantt-chart/](https://dhtmlx.com/docs/products/demoApps/salesforce-gantt-chart/)
 
 ## Support Us
