@@ -38,7 +38,13 @@ sfdx force:data:tree:import -f ./data/GanttTask__c.json
 sfdx force:org:open
 ```
 
-The scratch org already has Gantt app which you can check, or go to "Setup : Lighting Apps", create a new Lighting App and drop the Gantt from the list of available components.
+- Create custom tab with Gantt
+
+The scratch org already has Gantt app which you can check, or go to "Setup : Lighting Apps", create a new Lighting App and drop the Gantt from the list of available components:
+https://docs.dhtmlx.com/gantt/desktop__howtostart_salesforce.html#step7creatinglightningpage
+
+- Open the tab with Gantt by choosing it from the `App Launcher`
+
 
 ## How to configure / modify
 
