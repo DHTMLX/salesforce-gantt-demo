@@ -21,21 +21,21 @@ The sample is implemented with the help of JavaScript Gantt chart library - [DHT
 - Create [scratch org](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_scratch_orgs.htm#!)
 
 ```sh
-sfdx force:auth:web:login -d
-sfdx force:org:create -f config/project-scratch-def.json -s
+sfdx org login web -d
+sfdx org create scratch -f config/project-scratch-def.json -d
 ```
 
 - Publish code
 
 ```sh
-sfdx force:source:push
-sfdx force:data:tree:import -f ./data/GanttTask__c.json
+sfdx project deploy start
+sfdx data import tree -f ./data/GanttTask__c.json
 ```
 
 - Open scratch org in browser
 
 ```
-sfdx force:org:open
+sfdx org open
 ```
 
 - Create custom tab with Gantt
