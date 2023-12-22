@@ -66,6 +66,9 @@ export default class GanttView extends LightningElement {
  
         //uncomment the following line if you use the Enterprise or Ultimate version
         //const gantt = window.Gantt.getGanttInstance();
+
+        // If your dates don't have hours, they will be converted to your timezone
+        // To avoid that, use this construction: new Date(date + " 00:00:00")
         gantt.templates.parse_date = (date) => new Date(date);
         gantt.templates.format_date = (date) => date.toISOString();
  
