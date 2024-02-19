@@ -3,9 +3,9 @@
     <fullName>Progress__c</fullName>
     <externalId>false</externalId>
     <label>Progress</label>
-    <precision>10</precision>
+    <precision>6</precision>
     <required>false</required>
-    <scale>4</scale>
+    <scale>0</scale>
     <trackTrending>false</trackTrending>
     <type>Number</type>
     <unique>false</unique>

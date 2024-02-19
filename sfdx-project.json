@@ -8,5 +8,5 @@
   "name": "gantt-salesforce-app",
   "namespace": "",
   "sfdcLoginUrl": "https://xbs2-dev-ed.my.salesforce.com",
-  "sourceApiVersion": "54.0"
+  "sourceApiVersion": "59.0"
 }
