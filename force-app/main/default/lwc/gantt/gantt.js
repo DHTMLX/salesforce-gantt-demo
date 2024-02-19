@@ -6,7 +6,7 @@ import { loadStyle, loadScript } from "lightning/platformResourceLoader";
 import { createRecord, updateRecord, deleteRecord } from "lightning/uiRecordApi";
  
 // Static resources
-import GanttFiles from "@salesforce/resourceUrl/dhtmlxganttt";
+import GanttFiles from "@salesforce/resourceUrl/dhtmlxgantt802";
  
 // Controllers
 import getTasks from "@salesforce/apex/GanttData.getTasks";
@@ -66,6 +66,9 @@ export default class GanttView extends LightningElement {
  
         //uncomment the following line if you use the Enterprise or Ultimate version
         //const gantt = window.Gantt.getGanttInstance();
+
+        // If your dates don't have hours, they will be converted to your timezone
+        // To avoid that, use this construction: new Date(date + " 00:00:00")
         gantt.templates.parse_date = (date) => new Date(date);
         gantt.templates.format_date = (date) => date.toISOString();
  
@@ -93,8 +96,7 @@ export default class GanttView extends LightningElement {
                             Progress__c: data.progress
                         }
                     };
-                    gantt.config.readonly = true; // suppress changes
-                                                  // until saving is complete  
+                    gantt.config.readonly = true; // suppress changes until saving is complete
                     return createRecord(insert).then((res) => {
                         gantt.config.readonly = false;
                         return { tid: res.id, ...res };
