@@ -6,7 +6,7 @@
                 "referenceId": "GanttTask__cRef2"
             },
             "Name": "New task",
-            "Start_Date__c": "2020-02-02T21:00:00.000+0000",
+            "Start_Date__c": "2024-02-02T21:00:00.000+0000",
             "Duration__c": 1,
             "Parent__c": "0",
             "Progress__c": 0
