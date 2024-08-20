@@ -1,7 +1,6 @@
 # Gantt demo for SalesForce
 
 [![dhtmlx.com](https://img.shields.io/badge/made%20by-DHTMLX-blue)](https://dhtmlx.com/)
-[![License: GPL v2](https://img.shields.io/badge/license-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 
 Here you can find a code example of the Gantt chart for Lightning Web Components on Salesforce Platform.
 
