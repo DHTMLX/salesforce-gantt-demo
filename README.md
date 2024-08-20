@@ -81,26 +81,23 @@ gantt.createDataProcessor({
 
 **createDataProcessor** defines data saving rules, they need to be adjusted if you will want to save some extra fields along with the default Task's data.
 
-### Version of the Gantt
+### DHTMLX Gantt Version and License
 
-
-force-app/main/default/staticresources/dhtmlxgantt7111.zip contains a trial version of the Gantt ( it will show a warning message time to time ). For production usage you will need to replace js and css files in this archive with ones from enterprise/ultimate Gantt package.
+The package force-app/main/default/staticresources/dhtmlxgantt7111.zip comes under the Evaluation license of DHTMLX Gantt. The Gantt chart will show a warning message about a 30-day trial period from time to time. For production usage, you will need to replace the js and css files in this archive with the ones from the DHTMLX Gantt package under the Enterprise or Ultimate licenses. 
 
 ## Related resources
 
 - Documentation: [https://docs.dhtmlx.com/gantt/](https://docs.dhtmlx.com/gantt/)
-- dhtmlxGantt product page: [https://dhtmlx.com/docs/products/dhtmlxGantt/](https://dhtmlx.com/docs/products/dhtmlxGantt/)
+- DHTMLX Gantt product page: [https://dhtmlx.com/docs/products/dhtmlxGantt/](https://dhtmlx.com/docs/products/dhtmlxGantt/)
 - Video tutorial: [https://youtu.be/1nXl9jfMdto](https://youtu.be/1nXl9jfMdto?list=PLKS_XdyIGP4MEW6yvvQUZT8vJKHVOq2S0)
 - About DHTMLX Gantt in Salesforce: [https://dhtmlx.com/docs/products/demoApps/salesforce-gantt-chart/](https://dhtmlx.com/docs/products/demoApps/salesforce-gantt-chart/)
+- Demo of DHTMLX Gantt chart with resource management diagram for SalesForce LWC: [https://github.com/DHTMLX/salesforce-gantt-resources-demo](https://github.com/DHTMLX/salesforce-gantt-resources-demo)
 
-## Support Us
+## Join our online community
 
-Star our GitHub repo :star:
-
-Check our [roadmap](https://trello.com/b/fhOySHPj/gantt-roadmap) for future updates :wrench:
-
-Read us on [Medium](https://medium.com/@dhtmlx) :newspaper:
-
-Follow us on [Twitter](https://twitter.com/dhtmlx) :bird:
-
-Like our page on [Facebook](https://www.facebook.com/dhtmlx/) :thumbsup:
+- Star our GitHub repo :star:
+- Check our [roadmap](https://trello.com/b/fhOySHPj/gantt-roadmap) for future updates :wrench:
+- Watch our tutorials on [YouTube](https://www.youtube.com/user/dhtmlx/videos) :tv:
+- Read us on [Medium](https://dhtmlx.medium.com) :newspaper:
+- Follow us on [X](https://x.com/dhtmlx) :bird:
+- Check our news and updates on [Facebook](https://www.facebook.com/dhtmlx/) :feet:
