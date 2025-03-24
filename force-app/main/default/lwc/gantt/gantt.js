@@ -6,7 +6,7 @@ import { loadStyle, loadScript } from "lightning/platformResourceLoader";
 import { createRecord, updateRecord, deleteRecord } from "lightning/uiRecordApi";
  
 // Static resources
-import GanttFiles from "@salesforce/resourceUrl/dhtmlxgantt802";
+import GanttFiles from "@salesforce/resourceUrl/dhtmlxgantt";
  
 // Controllers
 import getTasks from "@salesforce/apex/GanttData.getTasks";
