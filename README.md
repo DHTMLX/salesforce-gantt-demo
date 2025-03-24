@@ -82,7 +82,7 @@ gantt.createDataProcessor({
 
 ### DHTMLX Gantt Version and License
 
-The package force-app/main/default/staticresources/dhtmlxgantt7111.zip comes under the Evaluation license of DHTMLX Gantt. The Gantt chart will show a warning message about a 30-day trial period from time to time. For production usage, you will need to replace the js and css files in this archive with the ones from the DHTMLX Gantt package under the Enterprise or Ultimate licenses. 
+The force-app/main/default/staticresources/dhtmlxgantt folder comes under the Evaluation license of DHTMLX Gantt. The Gantt chart will show a warning message about a 30-day trial period from time to time. For production usage, you will need to replace the js and css files in this archive with the ones from the DHTMLX Gantt package under the Enterprise or Ultimate licenses. 
 
 ## Related resources
 
