@@ -1,4 +1,4 @@
-# Gantt demo for SalesForce
+# Gantt Demo for SalesForce
 
 [![dhtmlx.com](https://img.shields.io/badge/made%20by-DHTMLX-blue)](https://dhtmlx.com/)
 
@@ -82,15 +82,34 @@ gantt.createDataProcessor({
 
 ### DHTMLX Gantt Version and License
 
-The force-app/main/default/staticresources/dhtmlxgantt folder comes under the Evaluation license of DHTMLX Gantt. The Gantt chart will show a warning message about a 30-day trial period from time to time. For production usage, you will need to replace the js and css files in this archive with the ones from the DHTMLX Gantt package under the Enterprise or Ultimate licenses. 
+The force-app/main/default/staticresources/dhtmlxgantt folder comes under the Evaluation license of DHTMLX Gantt. The Gantt chart will show a warning message about a 30-day trial period from time to time. For production usage, you will need to replace the js and css files in this archive with the ones from the DHTMLX Gantt package under the Enterprise or Ultimate licenses.
+
+---
+<p align="center">
+🚀 <b>Explore the Live Demo Built with DHTMLX for Salesforce LWC</b>
+</p>
+<p align="center">
+This demo presents a complete integration of DHTMLX components with Salesforce LWC, featuring a Kanban board for intuitive drag-and-drop task organization, a Gantt chart for advanced project management with task dependencies, and a Scheduler for managing events. <a href="https://github.com/DHTMLX/salesforce-lwc-demo/">Check demo on GitHub</a>.
+</p>
+<p align="center">
+    You can test the demo in a live Salesforce environment without any local setup. Make sure you use the following credentials:
+</p>
+<p align="center">Login: <code>user</code></p>
+<p align="center">Password: <code>demo</code></p>
+<p align="center">
+  <a href="https://dhtmlx-dev-ed.develop.lightning.force.com/lightning/n/Kanban">
+  Open the live demo >>> </a>
+</p>
+
+---
 
 ## Related resources
 
-- Documentation: [https://docs.dhtmlx.com/gantt/](https://docs.dhtmlx.com/gantt/)
-- DHTMLX Gantt product page: [https://dhtmlx.com/docs/products/dhtmlxGantt/](https://dhtmlx.com/docs/products/dhtmlxGantt/)
-- Video tutorial: [https://youtu.be/1nXl9jfMdto](https://youtu.be/1nXl9jfMdto?list=PLKS_XdyIGP4MEW6yvvQUZT8vJKHVOq2S0)
-- About DHTMLX Gantt in Salesforce: [https://dhtmlx.com/docs/products/demoApps/salesforce-gantt-chart/](https://dhtmlx.com/docs/products/demoApps/salesforce-gantt-chart/)
-- Demo of DHTMLX Gantt chart with resource management diagram for SalesForce LWC: [https://github.com/DHTMLX/salesforce-gantt-resources-demo](https://github.com/DHTMLX/salesforce-gantt-resources-demo)
+- [DHTMLX Gantt documentation](https://docs.dhtmlx.com/gantt/)
+- [About DHTMLX Gantt](https://dhtmlx.com/docs/products/dhtmlxGantt/)
+- [Video tutorial](https://youtu.be/1nXl9jfMdto?list=PLKS_XdyIGP4MEW6yvvQUZT8vJKHVOq2S0)
+- [About DHTMLX Gantt in Salesforce](https://dhtmlx.com/docs/products/demoApps/salesforce-gantt-chart/)
+- [Demo of DHTMLX Gantt chart with resource management diagram for SalesForce LWC](https://github.com/DHTMLX/salesforce-gantt-resources-demo)
 
 ## Join our online community
 
